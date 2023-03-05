@@ -13,6 +13,8 @@ dependencies:
     sdk: flutter
   intl: ^0.17.0
   equatable: ^2.0.5
+  google_sign_in: ^6.0.2
+  flutter_signin_button: ^2.0.0
   biblioteca_components:
     path: ../biblioteca_components
 
@@ -38,9 +40,8 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
 
-  # To add assets to your package, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - lib/assets/images/login.png
   #   - images/a_dot_ham.jpeg
   #
   # For details regarding assets in packages, see

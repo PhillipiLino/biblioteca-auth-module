@@ -22,6 +22,8 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function> {
-
+    "loginPageDescription" : MessageLookupByLibrary.simpleMessage("Entre agora e descubra o melhor jeito de acompanhar seu progresso na leitura!"),
+    "loginPageGoogleButton" : MessageLookupByLibrary.simpleMessage("Entrar com Google"),
+    "loginPageTitle" : MessageLookupByLibrary.simpleMessage("Minha Biblioteca")
   };
 }

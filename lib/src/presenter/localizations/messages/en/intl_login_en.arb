@@ -1,4 +1,8 @@
 {
     "@@last_modified": "2018-05-25T11:50:40.743319",
-    "@@locale": "en"
+    "@@locale": "en",
+
+    "loginPageTitle": "Minha Biblioteca", 
+    "loginPageDescription": "Join now and discover the best way to track your reading progress!", 
+    "loginPageGoogleButton": "Sign in with Google"
 }

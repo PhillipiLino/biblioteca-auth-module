@@ -26,4 +26,10 @@ class ModuleLocalizations {
   final login = _LoginPage();
 }
 
-class _LoginPage {}
+class _LoginPage {
+  String get loginPageTitle => Intl.message('', name: 'loginPageTitle');
+  String get loginPageDescription =>
+      Intl.message('', name: 'loginPageDescription');
+  String get loginPageGoogleButton =>
+      Intl.message('', name: 'loginPageGoogleButton');
+}
