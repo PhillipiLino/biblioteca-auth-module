@@ -1,7 +1,2 @@
-library biblioteca_auth_module;
-
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/auth_module.dart';
+export 'src/presenter/localizations/module_localizations_delegate.dart';
