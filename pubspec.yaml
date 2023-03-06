@@ -1,7 +1,7 @@
 name: biblioteca_auth_module
 description: A new Flutter package project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/PhillipiLino/biblioteca-auth-module.git
 publish_to: 'none'
 
 environment:
@@ -16,7 +16,9 @@ dependencies:
   google_sign_in: ^6.0.2
   flutter_signin_button: ^2.0.0
   biblioteca_components:
-    path: ../biblioteca_components
+    git:
+      url: https://github.com/PhillipiLino/biblioteca-components.git
+      ref: main
 
   clean_architecture_utils:
     git:

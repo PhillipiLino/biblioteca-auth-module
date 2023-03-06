@@ -40,7 +40,6 @@ class _LoginPageState extends MainPageState<LoginPage, LoginPageStore> {
             Container(
               padding:
                   const EdgeInsets.symmetric(horizontal: 24).copyWith(top: 48),
-              color: Colors.amber.withOpacity(0.7),
               child: const Image(image: ModuleImages.login),
             ),
             const SizedBox(height: 32),
